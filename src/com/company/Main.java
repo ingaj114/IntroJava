@@ -61,7 +61,6 @@ public class Main {
 //         float decimalFloat = 3.683f;
 //         double decimalDouble = 5.2323235353;
 
-
         // Arithmetic Operators include:
         // + - Addition
         System.out.println("Addition of number and value is: " + (number + value));
