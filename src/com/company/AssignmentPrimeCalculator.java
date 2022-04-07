@@ -1,6 +1,6 @@
 package com.company;
 
-public class Assignment {
+public class AssignmentPrimeCalculator {
     public static void main(String[] args) {
 //    TASK: Write a program that will output the prime numbers between 1 - 80.
 //      Prime number is a numbers that can only be divided by 1 and itself without giving any remainders
