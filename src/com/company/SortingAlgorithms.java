@@ -2,32 +2,34 @@ package com.company;
 
 import java.util.Arrays;
 
-public class SortingAlgos {
+public class SortingAlgorithms {
     public static void main(String[] args) {
 
         int[] numbers = {7, 3, 2, 16, 24, 4, 11, 9};
-        // Bubble sort
-        // sorts by comparing numbers adjacent to it
+
+        // Bubble sort -> sorts numbers by comparing numbers adjacent to it
+        // time complexity of the bubble sort is 0(n^2)
         for (int i = 0; i < numbers.length; i++) {
             for (int j = 0; j < numbers.length - 1 - i; j++) {
                 //Create a temp variable to hold the current value at index j
                 if (numbers[j] > numbers[j + 1]) {
                     int temp = numbers[j];
+
                     //swap the numbers with each other
                     numbers[j] = numbers[j + 1];
                     numbers[j + 1] = temp;
                 }
             }
-            //time complexity of the bubble sort is 0(n^2)
         }
         System.out.println(Arrays.toString(numbers));
-        // Insertion sort
-        // this algorithm sorts numbers by comparing the values at the indexes with the previous elements to sort elements
-        // we place the value at the index where there are no lesser values than that element
+
+        // Insertion sort -> sorts numbers by comparing the values at the indexes with the previous elements
+        // to sort elements. We place the value at the index where there are no lesser values than that element
+        // time complexity of the insertion sort is 0(n^2)
         for (int i = 1; i < numbers.length; i++) {
             int valueToSort = numbers[i];
             int j;
-            // the loop below is to store the number at the point where there are no fewer numbers than value
+            // the loop below is to store the number at the point where there are no less numbers than that value
             for (j = i; j > 0 && numbers[j - 1] > valueToSort; j--) {
                 numbers[j] = numbers[j - 1];
             }
@@ -35,9 +37,9 @@ public class SortingAlgos {
         }
         System.out.println((Arrays.toString(numbers)));
 
-        // Selection sort
-        // find the minimum element, swap that minimum element with the current element, repeat the whole process until
-        // the array is fully sorted
+        // Selection sort -> find the minimum element, swap that minimum element with the current element,
+        // repeat the whole process until the array is fully sorted
+        // time complexity of the selection sort is 0(n^2)
         for (int i = 0; i < numbers.length; i++) {
             int index = i; // current index of number
             for (int j = i + 1; j < numbers.length; j++)
@@ -54,11 +56,11 @@ public class SortingAlgos {
     }
     public static void mergeSort(int start, int end, int[] numbers){
         // Merge Sort
-        // Divide the array into sub-arrays of about half size in each iteration/repetition
-        // until each sub array has only one element
-        // merge each sub-array repeatedly to create sorted arrays. This is going to repeat itself
-        // until we have only one sorted array. this is sorted array*/
-        // Recursive algorithm for merge sort
+        // Divide the array into sub-arrays of about half size in each iteration/repetition until each sub array
+        // has only one element. Merge each sub-array repeatedly to create sorted arrays. This is going to repeat itself
+        // until we have only one sorted array. this is sorted array
+
+        // Recursive method
         int mid = (start + end) / 2;
         if (start < end) {
             // Sort left half
