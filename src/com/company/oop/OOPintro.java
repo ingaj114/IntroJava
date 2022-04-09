@@ -1,28 +1,29 @@
 package com.company.oop;
-import com.company.oop.car.Ferrari;
-
-import java.util.Arrays;
-import java.util.Scanner;
-import javax.xml.transform.Result;
 
 public class OOPintro {
     // OOP -> programming paradigm
     // paradigm -> a way of viewing things
+
     // Encapsulation
     // This is a concept of hiding data and methods from the outside world
     // (Classes outside of the one the data is defined in)
     // This allows us to control what data is given out or received
+
     // Inheritance
     // This is a mechanism that allows us to share behaviour between classes
     // A class that inherits from another class is called the 'child' or 'sub' class.
     // The class that is inherited from is the 'parent' or 'super' class
+
     // Polymorphisms
     // The ability of an object to return different to the same method call.
+
     // A class is a blueprint for describing an object
     // Car -> Attributes: color, model, numOfTires, numOfSeats.
     // Another name for field is global variable
+
     // Behaviour: startsEngine, stopEngine, turnRight, turnLeft
     // fields -> used to define attributes in a method
+
     public static void main(String[] args) {
     /*  Car benz = new Car();
         benz.startEngine(false);
