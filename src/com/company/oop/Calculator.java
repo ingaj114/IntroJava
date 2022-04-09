@@ -2,6 +2,12 @@ package com.company.oop;
 
 public class Calculator {
 
+    //instance variable is a variables whose values are attached to particular
+    //instance object
+
+    // instance method is a method that is attached to particular instance of an
+    // object
+
     public static int add(int smallNumber, int bigNumber) {
         return smallNumber + bigNumber;
     }
