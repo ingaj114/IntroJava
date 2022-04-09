@@ -67,10 +67,10 @@ public class OOPintro {
         // instantiation of the rectangles at object creation and
         // also write methods to find the perimeter and area of the rectangle
 
-/*        Rectangle calculate = new Rectangle(2, 4);
+        Rectangle calculate = new Rectangle(2, 4);
 
         System.out.println("Perimeter of rectangle is: " + calculate.perimeter());
-        System.out.println("Area of rectangle is: " + calculate.area());*/
+        System.out.println("Area of rectangle is: " + calculate.area());
         // Write a method that takes an array of 5 Person as a parameter and then returns
         // the average of the array of Persons as its output
         Person[] people = new Person[]{

@@ -1,4 +1,4 @@
-package com.company.oop.car;
+package com.company.oop;
 
 public class Car_assign {
     // Define the attributes of the object
