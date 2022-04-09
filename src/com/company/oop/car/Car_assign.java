@@ -1,6 +1,6 @@
 package com.company.oop.car;
 
-public class Car {
+public class Car_assign {
     // Define the attributes of the object
     private String color = "Blue";
     private int numOfTires = 4;
