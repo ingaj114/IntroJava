@@ -1,11 +1,9 @@
-package com.company.oop;
+package com.company.oop.car;
 
 public class Car {
     // Define the attributes of the object
     private String color = "Blue";
-    private String model = "w1";
     private int numOfTires = 4;
-    private int numOfSeats = 5;
     private boolean engineOn = false;
 
     // Define their behaviours
