@@ -7,7 +7,6 @@ public class Calculator {
 
     // instance method is a method that is attached to particular instance of an
     // object
-    //calc
     public static int add(int smallNumber, int bigNumber) {
         return smallNumber + bigNumber;
     }
