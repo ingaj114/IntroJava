@@ -9,20 +9,23 @@ public class ArraysClass {
         // An array is a collection of multiple data units of a single data type.
         // Indexing for an array start at 0
         // First way to declare an array (you have predetermined values)
-//        int[] numbers = {4, 5, 0, 4};
-//        System.out.println(numbers.length);
+        int[] numbers = {4, 5, 0, 4};
+        //System.out.println(numbers.length);
 
         //Second way to declare an array.
-//        int[] numbers = new int[5]; //default value for int is 0
-//        String[] textArr = new String[6]; //default value for objects including String is null
-//
-//        textArr[3] = "orange";
+        int[] numbers2 = new int[5]; //default value for int is 0
+        //System.out.println(Arrays.toString(numbers2));
+        String[] textArr = new String[6]; //default value for objects including String is null
+        //System.out.println(Arrays.toString(textArr));
 
-//        for (int i = 0; i < numbers.length; i++) {
+        textArr[3] = "orange";
+
+/*        for (int i = 0; i < numbers.length; i++) {
         //prompt the user to enter a number;
-//            System.out.print("Enter a number: ");
-//            numbers[i] = scanner.nextInt();
-//        }
+            System.out.print("Enter a number: ");
+            numbers[i] = scanner.nextInt();
+        }*/
+
         // Find the sum of the numbers;
 //        int sum = 0;
 //        for (int i = 0; i < numbers.length; i++) {
@@ -48,6 +51,16 @@ public class ArraysClass {
             average += numbersTask[i];
         }
         System.out.println("The average value of numbers " + Arrays.toString(numbersTask) + " is: " + (average/numbersTask.length));
+
+
+        int [] numbArray = {4, 7, 2, 1, 9, 4};
+        double sum = 0;
+
+        for (int i = 0; i < numbArray.length; i++) {
+            sum += numbArray[i];
+        }
+        double resultOfAve = sum / numbArray.length;
+        System.out.println(resultOfAve);
 
     }
 }
