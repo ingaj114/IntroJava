@@ -71,6 +71,7 @@ public class OOPintro {
 
         System.out.println("Perimeter of rectangle is: " + calculate.perimeter());
         System.out.println("Area of rectangle is: " + calculate.area());
+
         // Write a method that takes an array of 5 Person as a parameter and then returns
         // the average of the array of Persons as its output
         Person[] people = new Person[]{
