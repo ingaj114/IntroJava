@@ -14,4 +14,5 @@ public class Company {
         System.out.println("Average age of employees is " + Employee.getAveAge(people));
 
     }
+
 }

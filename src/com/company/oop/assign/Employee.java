@@ -20,4 +20,5 @@ public class Employee extends Person {
         }
         return sum / people.length;
     }
+
 }
