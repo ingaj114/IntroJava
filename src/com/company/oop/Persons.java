@@ -3,13 +3,13 @@ package com.company.oop;
 public class Persons {
 
     //define properties of the class
-    private final Person[] people;
+    private Person[] people;
 
     public Persons(Person[] people) {
         this.people = people;
     }
 
-    /*public float getAverageAge(Person[] people) {
+    public float getAverageAge() {
         float sum = 0;
         // for-each loop
         for (Person person : people) {
@@ -17,6 +17,6 @@ public class Persons {
             sum += person.getAge();
         }
         return sum / people.length;
-    }*/
+    }
 }
 

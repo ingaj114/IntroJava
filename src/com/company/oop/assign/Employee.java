@@ -2,23 +2,14 @@ package com.company.oop.assign;
 
 public class Employee extends Person {
 
-    private String name;
-    private int age;
-    private long companyID;
+    private long companyId;
     private String companyName;
 
-    public Employee(String name, int age) {
+    public Employee(String name, int age, long companyId, String companyName) {
         super(name, age);
-        this.name = name;
-        this.age = age;
+        this.companyId = companyId;
+        this.companyName = companyName;
     }
 
-    public static float getAveAge(Person[] people) {
-        float sum = 0;
-        for (Person person : people) {
-            sum += person.getAge();
-        }
-        return sum / people.length;
-    }
 
 }

@@ -14,7 +14,7 @@ public class OOPintro {
     // A class that inherits from another class is called the 'child' or 'sub' class.
     // The class that is inherited from is the 'parent' or 'super' class
 
-    // Polymorphisms
+    // Polymorphism
     // The ability of an object to return different to the same method call.
 
     // A class is a blueprint for describing an object
@@ -61,6 +61,7 @@ public class OOPintro {
         System.out.print("With a weight " + person1.getWeight() + " kg "
                 + "and height " + person1.getHeight() + " cm, the BMI is " +
                 Math.round(person1.ResultBMI()));*/
+
         // Create a new class called Rectangle and in that class,
         // define two properties of a rectangle which are the length
         // and breadth. Create a constructor to allow
